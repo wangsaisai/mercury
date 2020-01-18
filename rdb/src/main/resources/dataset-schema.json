@@ -1,0 +1,24 @@
+{
+  "rname": "t1",
+  "wname": "t2",
+  "fields": [
+    {
+      "index": 0,
+      "name": "c1",
+      "rtype": "LONG",
+      "wtype": "LONG",
+      "primaryKey": true
+    },
+    {
+      "index": 1,
+      "name": "c2",
+      "rtype": "STRING",
+      "wtype": "STRING",
+      "cellSchema": {
+        "type": "DATE",
+        "pattern": "yyyy-MM-dd HH:mm:ss",
+        "timeZone": "GMT+4"
+      }
+    }
+  ]
+}

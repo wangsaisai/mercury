@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>mercury</artifactId>
+    <groupId>com.bamboo.mercury</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>common</artifactId>
+  <modelVersion>4.0.0</modelVersion>
+
+  <dependencies>
+    <dependency>
+      <artifactId>commons-configuration</artifactId>
+      <groupId>commons-configuration</groupId>
+      <version>1.10</version>
+    </dependency>
+
+    <dependency>
+      <artifactId>gson</artifactId>
+      <groupId>com.google.code.gson</groupId>
+      <version>2.8.5</version>
+    </dependency>
+
+    <!-- can't download gson-extras jar through maven, unknown reason -->
+    <dependency>
+      <artifactId>gson-extras</artifactId>
+      <groupId>com.google.code.gson</groupId>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/libs/gson-extras-2.8.5.jar</systemPath>
+      <version>2.8.5</version>
+    </dependency>
+
+  </dependencies>
+
+</project>

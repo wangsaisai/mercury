@@ -1,0 +1,27 @@
+# Maven
+target*
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+# config may contain sensitive info (password)
+mercury-application.properties
+
+# other files
+.DS_Store
+*.swp
+
+# gradle
+.gradle
+gradle
+build
+
+# out
+out
+/.project
+
+
+fakewrite.txt
